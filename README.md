@@ -11,27 +11,27 @@ The ppt should be around 10 pages with at least 1 picture in each page. The ppt 
 
 Content Pages Task divided Parts for Grading
 
-- [ ] Cover page 1 Leader 12/1
+- [ ] Cover page 1 Carolann Mora 12/1
 
-- [ ] Abstract 1 M1
+- [ ] Abstract 1 Moises Martinez
 
-- [ ] Introduction 1 M1
+- [ ] Introduction 1 Moises Martinez
 
-- [ ] HTML design 1 M2
+- [ ] HTML design 1 Keneishia Tinniehill/Carolann Mora
 
-- [ ] CSS design 1 M2
+- [ ] CSS design 1 Keneishia Tinniehill/Carolann Mora
 
-- [ ] Javascript design 1 M3
+- [ ] Javascript design 1 Keneishia Tinniehill/Carolann Mora
 
 - [ ] server scripting 1(optional) M3
 
 - [ ] Database 1(optional) M4
 
-- [ ] Hosting and Deployment 1 M4
+- [ ] Hosting and Deployment 1 Andy Nguyen
 
-- [ ] Conclusion 1 M4
+- [ ] Conclusion 1 Andy Nguyen
 
-- [ ] Future work 0.5 Leader
+- [ ] Future work 0.5 Carolann Mora
 
 - [ ] Reference 0.5 Leader
 
