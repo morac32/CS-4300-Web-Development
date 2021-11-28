@@ -17,11 +17,11 @@ Content Pages Task divided Parts for Grading
 
 - [ ] Introduction 1 Moises Martinez
 
-- [ ] HTML design 1 Keneishia Tinniehill/Carolann Mora
+- [ ] HTML design 1 Carolann Mora
 
 - [ ] CSS design 1 Keneishia Tinniehill/Carolann Mora
 
-- [ ] Javascript design 1 Keneishia Tinniehill/Carolann Mora
+- [ ] Javascript design 1 Carolann Mora
 
 - [ ] server scripting 1(optional) M3
 
