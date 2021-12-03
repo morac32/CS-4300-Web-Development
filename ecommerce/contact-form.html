@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
     	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     	<title>All products for T-codeshirt</title>
     	<meta name="description" content="">
@@ -27,10 +27,15 @@
 						<li><a href="products.html">Apparel</a></li>
 						<li><a href="about.html">About</a></li>
 						<li><a href="contact-form.html">Contact</a></li>
-						<li><a href="">Account</a></li>      	
+						<li><a href="account.html">Account</a></li>
+						<li class="cart">
+							<a href="cart.html">
+								<ion-icon name="basket"></ion-icon>Cart<span>0</span>
+							</a> 
+						</li>       	
 					</ul>
 				</nav>
-				<img src="img/cart.png" width="30px" height="30px">
+				
 				<img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
 			</div>
 		</div>
@@ -39,7 +44,7 @@
 <!-------- contact form ----------->
 		<div class="wrapper">
 		    <header>Send us a Message</header>
-		    <form action="#">
+		    <form action="message.php">
 		      <div class="dbl-field">
 		        <div class="field">
 		          <input type="text" name="name" placeholder="Enter your name">
@@ -113,7 +118,11 @@
 <!------- js for toggle menu ------->
 		<script src="index.js"></script>
 		<script src="contact-form.js"></script>
-
+<!--for shoppingcart ion-icon script--->
+	    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<!------- cart.js --------------->
+		<script src="cart.js"></script>
 
 </body>
 </html>
