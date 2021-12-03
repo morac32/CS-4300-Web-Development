@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
     	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     	<title>All products for T-codeshirt</title>
     	<meta name="description" content="">
@@ -25,10 +25,15 @@
 						<li><a href="products.html">Apparel</a></li>
 						<li><a href="about.html">About</a></li>
 						<li><a href="contact-form.html">Contact</a></li>
-						<li><a href="">Account</a></li>      	
+						<li><a href="account.html">Account</a></li>
+						<li class="cart">
+							<a href="cart.html">
+								<ion-icon name="basket"></ion-icon>Cart<span>0</span>
+							</a> 
+						</li>       	
 					</ul>
 				</nav>
-				<img src="img/cart.png" width="30px" height="30px">
+		
 				<img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
 			</div>
 		</div>
@@ -56,7 +61,7 @@
 
 				</div>
 				<div class="col-2">
-					<p>Home / Hoodie</p>
+					<p>Apparel / All Products / Hoodie</p>
 					<h1>Men's Premium Hoodie by spreadshirt</h1>
 					<h4>$50.00</h4>
 					<select>
@@ -68,7 +73,7 @@
 						<option>Small</option>
 					</select>
 					<input type="number" value="1">
-					<a href="" class="btn">Add To Cart</a>
+					<a href="cart.html" class="btn cart7">Add To Cart</a>
 
 					<h3>Product Details <i class="fa fa-indent"></i></h3>
 					<br>
@@ -202,6 +207,11 @@
 	  	ProductImg.src = SmallImg[3].src;
 	  }
 	</script>
+<!--for shoppingcart ion-icon script--->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<!------- cart.js --------------->
+	<script src="cart.js"></script>
 
 
 </body>
